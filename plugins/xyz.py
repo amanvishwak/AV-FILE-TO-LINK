@@ -10,7 +10,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 # ✅ File Limit Control
-ENABLE_LIMIT = True  # ⚡ True = Limit ON, False = Limit OFF
+ENABLE_LIMIT = False  # ⚡ True = Limit ON, False = Limit OFF
 
 # 🕒 Dictionary for Rate Limit (User ID -> [File Count, Last Upload Time])
 rate_limit = {}
